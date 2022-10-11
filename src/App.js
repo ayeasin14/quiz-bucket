@@ -1,18 +1,13 @@
 import './App.css';
 import { BeakerIcon } from '@heroicons/react/24/solid';
+import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <div>
-        <BeakerIcon className="h-6 w-6 text-blue-500" />
-        <p>
-
-        </p>
-      </div>
+    <div>
+      <NavBar></NavBar>
+      <Header></Header>
     </div>
   );
 }
