@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
-import logo from '../../src/images/navbar-logo.png'
 const Header = () => {
     const [open, setOpen] = useState(false)
     return (
